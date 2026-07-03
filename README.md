@@ -1,39 +1,57 @@
-# 🚖 Uber Ride Analysis Dashboard
+# 🛒 Amazon Sales Dashboard
 
 ## 📌 Project Overview
 
-The Amazon Sales Dashboard is an end-to-end Business Intelligence project developed using **Excel, Python, and Power BI** to analyze **100,000 sales records and 18 data columns**, uncovering valuable business insights. Excel was used for initial data validation, Python for data cleaning and preprocessing, and Power BI for interactive dashboard development and visualization. The dashboard enables stakeholders to monitor sales performance, customer purchasing behavior, product trends, and profitability through dynamic KPIs and interactive reports.
+The **Amazon Sales Dashboard** is an end-to-end Business Intelligence project developed using **Excel, Python, and Power BI** to analyze **100,000 sales records across 18 data columns** and uncover actionable business insights. **Excel** was used for initial data validation, **Python** for data cleaning and preprocessing, and **Power BI** for designing an interactive dashboard with dynamic KPIs and visualizations. The dashboard helps stakeholders monitor sales performance, customer purchasing behavior, payment preferences, product demand, seller performance, and order delivery status to support data-driven business decisions.
+
+---
 
 ## 🎯 Business Problem
 
-Ride-sharing companies generate thousands of trip records every day. Analyzing this data is essential for understanding customer travel behavior, identifying peak demand periods, improving operational efficiency, and supporting strategic business decisions.
+E-commerce platforms generate a large volume of transactional data every day. Without proper analysis, businesses face challenges in understanding customer purchasing patterns, monitoring sales performance, evaluating delivery efficiency, and identifying high-performing products and sellers. This project provides a centralized dashboard to transform raw sales data into meaningful business insights.
+
+---
 
 ## 🎯 Objectives
 
-- Analyze ride demand across different time periods.
-- Monitor trip duration, distance, and average speed.
-- Compare Business and Personal ride categories.
-- Identify popular ride purposes and travel patterns.
-- Build an interactive dashboard for business decision-making.
+- Analyze overall sales performance and order trends.
+- Monitor customer growth and purchasing behavior.
+- Identify top-performing products and brands.
+- Evaluate payment method preferences and delivery performance.
+- Build an interactive dashboard for business monitoring and decision-making.
+
+---
 
 ## 📊 Dataset Information
 
-- **Dataset:** Uber Ride Dataset
-- **Domain:** Transportation & Mobility
-- **Records:** 1,100+ Ride Records
+- **Dataset:** Amazon Sales Dataset
+- **Domain:** E-Commerce & Retail
+- **Records:** 100,000 Sales Records
+- **Columns:** 18
 - **Tools Used:** Excel, Python, Power BI
 
 ### Dataset Features
 
-- Ride Category
-- Start & Stop Time
-- Pick-up Location
-- Drop Location
-- Ride Purpose
-- Distance (Miles)
-- Duration
-- Day & Month
-- Start Hour
+- Order ID
+- Customer ID
+- Customer Name
+- Product ID
+- Product Name
+- Brand
+- Seller ID
+- Country
+- City
+- Order Date
+- Payment Method
+- Order Status
+- Quantity
+- Unit Price
+- Discount
+- Tax
+- Shipping Cost
+- Total Amount
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -42,47 +60,61 @@ Ride-sharing companies generate thousands of trip records every day. Analyzing t
 | **Excel** | Data validation and preparation |
 | **Python (Pandas & NumPy)** | Data cleaning and preprocessing |
 | **Power Query** | Data transformation |
-| **Power BI** | Interactive dashboard and visualization |
+| **Power BI** | Interactive dashboard development and visualization |
 | **DAX** | KPI calculations and analytical measures |
+
+---
 
 ## 🧹 Data Cleaning & Preprocessing
 
-The dataset was cleaned and prepared using Python before importing it into Power BI. The preprocessing process included handling missing values, removing duplicate records, formatting date and time fields, extracting Month and Start Hour, creating Day Time categories (Morning, Afternoon, Evening, and Night), standardizing column names, and validating the cleaned dataset in Excel.
+The dataset was cleaned and prepared using Python before importing it into Power BI. The preprocessing process included handling missing values, removing duplicate records, validating data types, formatting date fields, standardizing column names, correcting inconsistent values, and preparing a clean dataset for business analysis and visualization.
+
+---
 
 ## 📊 Dashboard Features
 
 - Executive KPI Cards
-- Monthly Ride Trend Analysis
-- Ride Distribution by Start Hour
-- Ride Purpose Analysis
-- Day-wise Ride Analysis
-- Day Time Analysis
-- Miles vs Duration Scatter Plot
-- Interactive Slicers for Category, Day Time, Pick-up Location, and Drop Location
+- Total Orders Analysis
+- Customer Analysis
+- Sales Amount Analysis
+- Seller Performance
+- Product Performance
+- Country-wise Sales Analysis
+- Payment Method Analysis
+- Order Delivery Status Analysis
+- Interactive Slicers for Customer, Brand, and Date
+
+---
 
 ## 📈 Key Performance Indicators (KPIs)
 
-- 🚖 Total Rides
-- ⏱️ Average Duration
-- 📍 Total Miles
-- 📊 Trip Percentage
-- 🚀 Average Speed
+- 🛒 Total Orders
+- 👥 Total Customers
+- 💰 Total Sales Amount
+- 🏪 Total Sellers
+- 📦 Total Brands
+
+---
 
 ## 💡 Business Insights
 
-- Afternoon records the highest number of Uber rides, indicating peak customer demand during this period.
-- Business rides contribute significantly to the total trips compared to personal rides.
-- Meeting and Meal/Entertainment are the most common ride purposes, highlighting business-related travel patterns.
-- Ride demand increases during daytime hours, while night rides are comparatively lower.
-- A positive relationship exists between trip distance and duration, showing that longer rides generally require more travel time.
+- Processed and analyzed **100,000 customer orders** to evaluate overall business performance.
+- The United States generated the highest sales revenue compared to other countries.
+- Credit Card emerged as the most preferred payment method among customers.
+- Most customer orders were successfully delivered, indicating strong order fulfillment performance.
+- Product, brand, and seller analysis helped identify high-performing business segments and customer purchasing trends.
+
+---
 
 ## 🔮 Future Enhancements
 
-- Integrate real-time ride data for live monitoring.
-- Develop predictive models to forecast ride demand.
-- Add geospatial analysis using interactive maps.
-- Build driver performance and revenue analytics.
-- Perform customer segmentation using machine learning techniques.
+- Integrate real-time sales data for live reporting.
+- Develop sales forecasting using Machine Learning.
+- Build customer segmentation and recommendation models.
+- Add inventory and supply chain analytics.
+- Create profitability analysis at product and seller levels.
+
+---
 
 ## 👨‍💻 Author
 
