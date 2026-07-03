@@ -1,2 +1,1 @@
-# amazon_sales_analysis
-Power BI dashboard analyzing 100,000+ Amazon sales records and 18 columns to uncover sales trends, customer behavior, and business insights.
+Power BI dashboard analyzing 100,000+ Amazon sales records across 18 columns to identify sales trends, customer behavior, and business insights using Python (data cleaning & preprocessing) and Power BI (dashboarding & visualization).
